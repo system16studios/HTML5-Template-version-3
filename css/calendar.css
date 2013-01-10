@@ -1,0 +1,44 @@
+/*calendar*/
+.left-calendar {
+    width: 100%;
+    position: relative;
+    float: left;
+    padding: 0;
+	overflow: hidden;
+	}
+/*feeder generated content*/	
+.left-calendar ul li{
+	width: 90%;
+	list-style: none;
+	height: auto;
+	position: relative;
+	font-family: "Oswald", arial, helvetica, serif;
+	font-size: 16px;
+	padding: 5px;
+	line-height: 25px;
+	border: 1px solid gray;
+	margin-bottom: 5px;
+	background: none;
+	color: #ffffff;
+	clear: both;
+	}
+.left-calendar  ul li a{
+	font-weight: bold;
+	font-size: 18px;
+	background: none;
+	text-decoration: none;
+	padding: 7px;
+	margin-bottom: 5px;
+	color: #B2B2B2;
+	}
+.left-calendar  ul li p{
+
+	}
+.left-calendar  h2{
+	font-family: "Oswald", arial, helvetica, serif;
+	padding: 5px 10px;
+	line-height: 35px;
+	text-indent: 30px;
+	text-transform: uppercase;
+	} 
+/*end calendar*/  

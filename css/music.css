@@ -1,0 +1,51 @@
+/*the actual stylings for the player itself are located in the audio.min.js file.  If you wish to alter the look and feekl of the player open that file*/
+/*this is only for all the other elements on the section and it does not alter the right div in any way unless commented*/
+/*To get the audiojs files used in this demo, please visit http://kolber.github.com/audiojs/ tolearn how*/
+/*License: audio.js is released under an MIT License, for more details visit http://opensource.org/licenses/mit-license.php */
+/*song titles*/
+.controls {
+	float: right;
+	width: 200px;
+	position: relative;
+	margin: 5px 0px 20px 5px;	
+	}
+/*music presentationm*/	
+.music-playlist h4 {
+	width: 200px;
+	position: relative;
+	margin-top: 15px;
+	line-height: 25px;
+	border: 1px 0px 1px 0px solid #bbb;	
+	}
+/*album image*/	
+.music-playlist figure {
+	width: 300px;
+	height: 300px;
+	padding: 5px;
+	margin: 10px 15px;
+	position: relative;
+	float: left;
+	}
+/*every album gets wrapped ina legend with a class="albums" */
+.albums{
+	margin: auto;
+	margin-bottom: 20px;
+	width: 90%;
+	background: rgba(0,0,0,0.45);
+	border: 1px solid #bbb;
+	}	
+/*album cover image*/	
+.image {
+	width: 100%;
+	height: 100%;
+	}
+.music-player  figcaption p{
+	padding: 10px 20px;
+	font-weight: 200;
+	bacground: #bbb;
+	border-radius: 20px
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	}
+
+	

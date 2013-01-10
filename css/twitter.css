@@ -1,0 +1,33 @@
+/*this controls the loof of the twitter feed on the right div*/
+#jstwitter {
+	width: 100%;
+	font-family: "Oswald", arial, serif;
+	font-size: 14px;
+	margin: 0;
+	margin-top: 20px;
+	color: #fff;
+	}
+/*lets style the tweets*/	
+#jstwitter .tweet {
+	width: 95%;
+	margin: 0 auto 5px auto;
+	padding: 0 0px 13px 10px;
+	border-bottom: 1px solid #bbb;
+	background: rgba(0,0,0,0.25);
+	}
+/*Lets style the anchor links too!*/	
+#jstwitter .tweet a {
+	text-decoration: none;
+	color: #bbb;
+	}
+#jstwiotter .tweet a:hover {
+	text-decoration: underline;
+	color: #fff;
+	}
+/*And don't forget the time too*/	
+#jstwitter .tweet .time {
+	font-size: 10px;
+	font-style: italic;
+	color: #bbb;
+	}	
+/*End twitter stylesheet*/	
